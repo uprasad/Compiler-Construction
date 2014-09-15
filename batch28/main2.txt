@@ -1,0 +1,15 @@
+_main
+	type int :b3c45;
+	type int : b2d6;
+	type int : d6:global;
+	b3c45 <--- 0;
+	b2d6 <--- 5;
+	d6<--- 100;
+	if((b3c45 <= b2d6)&&&(b3c45 > b2d6)) then
+		d6<---d6+100;
+	else
+		d6<---d6-200;
+	endif
+	write(d6);
+	return;
+end

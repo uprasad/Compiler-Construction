@@ -1,0 +1,49 @@
+program
+	TK_MAIN : _main
+		stmts
+			declarations
+				TK_ID : b5b567
+					TK_INT : int
+				TK_ID : c3bd
+					TK_INT : int
+				TK_ID : d3
+					TK_INT : int
+			otherStmts
+				TK_ASSIGNOP : <---
+					TK_ID : c3bd
+					arithmeticExpression
+						term
+							TK_NUM : 5
+				TK_ASSIGNOP : <---
+					TK_ID : b5b567
+					arithmeticExpression
+						term
+							TK_NUM : 1
+				TK_ASSIGNOP : <---
+					TK_ID : d3
+					arithmeticExpression
+						term
+							TK_NUM : 0
+				TK_WHILE : while
+					TK_LE : <=
+						TK_ID : b5b567
+						TK_NUM : 7
+					TK_ASSIGNOP : <---
+						TK_ID : d3
+						arithmeticExpression
+							term
+								TK_ID : d3
+							TK_PLUS : +
+								term
+									TK_ID : c3bd
+					otherStmts
+						TK_ASSIGNOP : <---
+							TK_ID : b5b567
+							arithmeticExpression
+								term
+									TK_ID : b5b567
+								TK_PLUS : +
+									term
+										TK_NUM : 1
+				TK_WRITE : write
+					TK_ID : d3

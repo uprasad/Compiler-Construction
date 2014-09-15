@@ -1,0 +1,6 @@
+_main 
+	while(b5<=0)
+		b5 <--- 1;
+	endwhile
+	return;
+end

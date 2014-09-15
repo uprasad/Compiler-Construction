@@ -1,0 +1,89 @@
+<program>	2
+<mainFunction>	0	0	1
+<otherFunctions>	1	otherFunctions
+<otherFunctions>	3
+<function>	0	0	1	2	4
+<input_par>	0	0	4
+<output_par>	0	0	4
+<output_par>	3
+<parameter_list>	1	remaining_list
+<dataType>	0	0
+<dataType>	0	0
+<primitiveDatatype>	0	0
+<primitiveDatatype>	0	0
+<constructedDatatype>	0	1
+<remaining_list>	0	1
+<remaining_list>	3
+<stmts>	2
+<typeDefinitions>	1	typeDefinitions
+<typeDefinitions>	3
+<typeDefinition>	0	1	2
+<fieldDefinitions>	1	moreFields
+<fieldDefinition>	0	3	1
+<moreFields>	1	moreFields
+<moreFields>	3
+<declarations>	1	declarations
+<declarations>	3
+<declaration>	0	3	1	4
+<global_or_not>	0	1
+<global_or_not>	3
+<otherStmts>	1	otherStmts
+<otherStmts>	3
+<stmt>	0	0
+<stmt>	0	0
+<stmt>	0	0
+<stmt>	0	0
+<stmt>	0	0
+<assignmentStmt>	0	1	0	2
+<singleOrRecId>	0	0	1
+<singlePart>	0	0	1
+<singlePart>	3
+<funCallStmt>	0	1	0	2	5
+<outputParameters>	0	1
+<outputParameters>	3
+<inputParameters>	0	1
+<iterativeStmt>	0	0	2	4	5
+<conditionalStmt>	0	0	2	5	6	7
+<elsePart>	0	0	1	2
+<elsePart>	3
+<ioStmt>	0	0	2
+<ioStmt>	0	0	2
+<allVar>	0	0
+<allVar>	0	1	0	2
+<all>	0	0
+<all>	0	0
+<all>	0	0	1
+<temp>	3
+<temp>	0	0	1
+<arithmeticExpression>	2
+<expPrime>	0	0	1	2
+<expPrime>	3
+<term>	2
+<termPrime>	0	0	1	2
+<termPrime>	3
+<factor>	0	1
+<factor>	0	0
+<highPrecedenceOperators>	0	0
+<highPrecedenceOperators>	0	0
+<lowPrecedenceOperators>	0	0
+<lowPrecedenceOperators>	0	0
+<booleanExpression>	0	3	1	5
+<booleanExpression>	0	1	0	2
+<booleanExpression>	0	0	1
+<var>	0	0
+<var>	0	0
+<var>	0	0
+<logicalOp>	0	0
+<logicalOp>	0	0
+<relationalOp>	0	0
+<relationalOp>	0	0
+<relationalOp>	0	0
+<relationalOp>	0	0
+<relationalOp>	0	0
+<relationalOp>	0	0
+<returnStmt>	0	1
+<optionalReturn>	0	1
+<optionalReturn>	3
+<idList>	1	more_ids
+<more_ids>	0	1
+<more_ids>	3
